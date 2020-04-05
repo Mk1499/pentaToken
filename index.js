@@ -16,12 +16,10 @@ app.get("/", (req,res)=>{
 app.get("/apiToken", (req,res)=>{
 
     res.send({
-        "api":"kdmdksmf"
+        "api":"067b78e4-cd31-476a-9bb6-527f02562a79"
     })
 
 })
 
-server.listen(process.env.port || 3000 , ()=>{
-    console.log("App Started Successfully");
-    
-})
+let port_number = server.listen(process.env.PORT || 3000);
+app.listen(port_number); 
