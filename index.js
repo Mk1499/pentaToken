@@ -16,7 +16,7 @@ app.get("/", (req,res)=>{
 app.get("/apiToken", (req,res)=>{
 
     res.send({
-        "api":"953aa15a-c4e1-4ef7-a8be-806eeaa8435a"
+        "api":"14dd6966-33f0-4c8c-be75-2b68d9c5b66b"
     })
 
 })
